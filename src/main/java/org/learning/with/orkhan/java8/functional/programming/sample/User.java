@@ -1,4 +1,4 @@
-package org.orkhan.gasanov.java8.functional.programming.sample;
+package org.learning.with.orkhan.java8.functional.programming.sample;
 
 /**
  * Created by Orkhan Gasanov on December 12, 2018

@@ -1,4 +1,4 @@
-package org.orkhan.gasanov.annotation;
+package org.learning.with.orkhan.annotation;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;

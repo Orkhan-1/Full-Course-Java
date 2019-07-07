@@ -1,4 +1,4 @@
-package org.orkhan.gasanov.annotation;
+package org.learning.with.orkhan.annotation;
 
 /**
  * Created by Orkhan Gasanov on December 11, 2018

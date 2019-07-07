@@ -1,4 +1,4 @@
-package org.orkhan.gasanov;
+package org.learning.with.orkhan;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
