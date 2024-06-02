@@ -1,6 +1,6 @@
-# Java Tutorials
+# Full Course - Java
 
-Repository of Java tutorials
+Full Course - Java
 
 ## Stay Connected
 
