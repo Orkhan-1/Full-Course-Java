@@ -2,7 +2,7 @@
 
 Full Course - Java
 
-## Stay Connected
+## Full Course - Java
 
 - Subscribe to my [YouTube Channel](https://www.youtube.com/@orkhan-1/)
 - Follow me on [LinkedIn](https://www.linkedin.com/in/orkhan-gasanov)
