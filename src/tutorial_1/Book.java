@@ -1,3 +1,5 @@
+package tutorial_1;
+
 import java.util.Objects;
 
 public class Book extends Object {
