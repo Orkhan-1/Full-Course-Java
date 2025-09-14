@@ -1,4 +1,4 @@
-package tutorial_5;
+package tutorial_6;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -11,5 +11,5 @@ public class DemoApp {
 }
 
 // javac -cp "lib/commons-lang3-3.18.0.jar" DemoApp.java -d bin
-// java -cp "bin:lib/commons-lang3-3.18.0.jar" tutorial_5.DemoApp
+// java -cp "bin:lib/commons-lang3-3.18.0.jar" tutorial_6.DemoApp
 

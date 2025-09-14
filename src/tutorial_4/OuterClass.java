@@ -1,4 +1,4 @@
-package tutorial_3;
+package tutorial_4;
 
 public class OuterClass {
     private String message = "Hello from Outer Class";

@@ -1,4 +1,4 @@
-package tutorial_3;
+package tutorial_4;
 
 public class OuterClassOne {
     static String message = "Hello from Static Nested Class";

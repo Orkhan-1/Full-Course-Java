@@ -1,4 +1,4 @@
-package tutorial_4;
+package tutorial_5;
 
 public class Animal {
 }

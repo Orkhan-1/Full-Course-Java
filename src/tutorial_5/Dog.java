@@ -1,3 +1,3 @@
-package tutorial_4;
+package tutorial_5;
 
 class Dog extends Animal {}
