@@ -8,6 +8,7 @@ public class MainOne {
                 System.out.println("Dog barks");
             }
         };
-        dog.sound(); // Output: Dog barks
+        System.out.println(dog.getClass().getName());
+        dog.sound();
     }
 }

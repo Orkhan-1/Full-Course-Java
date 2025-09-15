@@ -2,14 +2,10 @@ package tutorial_5;
 
 public class InstanceofExample {
     public static void main(String[] args) {
-        Animal animal = new Dog();
+        Animal dog = new Dog();
 
-        if (animal instanceof Dog) {
-            System.out.println("animal is a Dog!");
-        }
-
-        if (animal instanceof Animal) {
-            System.out.println("animal is an Animal!");
-        }
+        System.out.println(dog instanceof Dog);
+        System.out.println(dog instanceof Animal);
+        System.out.println(dog instanceof Object);
     }
 }

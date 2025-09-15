@@ -8,6 +8,6 @@ public class Main {
                 System.out.println("Hello from Anonymous Class!");
             }
         };
-        greeting.sayHello(); // Output: Hello from Anonymous Class!
+        greeting.sayHello();
     }
 }
