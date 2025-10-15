@@ -65,8 +65,10 @@ public class Employee {
  * | public      | Yes    | Yes      | Yes       | Yes             |
  * +-------------+--------+----------+-----------+----------------+
  *
- *
- * Encapsulation - by controlling access, you can hide the internal implementation details of a class and expose only what’s necessary
+
+ Encapsulation - by controlling access, you can hide the internal implementation details
+ of a class and expose only what’s necessary
+
  */
 
 
