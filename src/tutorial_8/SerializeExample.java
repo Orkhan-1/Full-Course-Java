@@ -35,18 +35,23 @@ public class SerializeExample {
  *
  * ---------------------------------------------------------------
  * Notes:
- * 1.The class must implement java.io.Serializable interface: This is a marker interface (no methods) that tells the JVM that
- *   the class can be serialized. If a class does not implement Serializable, attempting to serialize it will throw a NotSerializableException.
+ * 1.The class must implement java.io.Serializable interface:
+ * This is a marker interface (no methods) that tells the JVM that the class
+ * can be serialized. If a class does not implement Serializable,
+ * attempting to serialize it will throw a NotSerializableException.
  *
- * 2.static fields are NOT serialized: Belong to the class, not the object. Serialization saves the state of an object, not the class definition.
- *   Since static variables are shared across all instances, it wouldn’t make sense to store them as part of a single object’s state
+ * 2.static fields are NOT serialized: Belong to the class, not the object.
+ * Serialization saves the state of an object, not the class definition.
+ * Since static variables are shared across all instances, it wouldn’t
+ * make sense to store them as part of a single object’s state
  *
- * 3.transient fields are skipped during serialization: Explicitly marked to skip serialization. Usually used for sensitive
- *   or temporary data that you don’t want to persist — like passwords, session tokens, or cached values
+ * 3.transient fields are skipped during serialization: Explicitly marked to skip serialization.
+ * Usually used for sensitive or temporary data that you don’t want to persist — like passwords,
+ * session tokens, or cached values
  *
- * 4.serialVersionUID ensures compatibility during deserialization: A unique identifier for each Serializable class.
- *   It helps verify that the sender and receiver of a serialized object have loaded classes for that object that are compatible
- *   with respect to serialization. If the receiver has a different serialVersionUID than the sender, it will throw an InvalidClassException.
+ * 4.serialVersionUID ensures compatibility during deserialization:
+ * A unique identifier for each Serializable class. If the receiver has
+ * a different serialVersionUID than the sender, it will throw an InvalidClassException.
  * The 1L here is your manually defined version ID.
 
    If you later modify the class (e.g., add/remove fields) and don’t update this number,
